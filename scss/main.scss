@@ -1,15 +1,14 @@
 @import "utilities/variables";
 
-// base
 @import "base/reset";
-@import "base/typography";
 @import "base/base";
+@import "base/typography";
 
-// components
 @import "components/button";
 @import "components/card";
 
-// layout
 @import "layout/header";
-@import "layout/footer";
+@import "layout/main";
+@import "layout/grid";
 @import "layout/navigation";
+@import "layout/footer";

@@ -1,0 +1,49 @@
+// header
+header {
+  .header_content {
+    span {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}
+
+// main
+main {
+  .main_content {
+    .header {
+      h1 {
+        font-size: 28px;
+        font-weight: bold;
+      }
+    }
+
+    .weather_card {
+      .card {
+        .input_section {
+          font-size: 18px;
+        }
+        .weather {
+          font-family: Arial, sans-serif;
+          font-weight: normal;
+          font-size: 64px;
+        }
+
+        .wind_f {
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+// footer
+
+footer {
+  .footer_content {
+    div {
+      font-size: 14px;
+    }
+  }
+}

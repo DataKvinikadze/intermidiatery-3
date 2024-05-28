@@ -1,0 +1,18 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: $main_color;
+}
+
+main {
+  .main_content {
+    .weather_card {
+      .card {
+        label,
+        span,
+        h2 {
+          color: $text_color;
+        }
+      }
+    }
+  }
+}

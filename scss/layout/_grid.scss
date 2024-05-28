@@ -1,0 +1,21 @@
+main {
+  .weather_card {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 56px 81px 160px 88.5px 34px;
+
+      .grid_one {
+        grid-row: 1;
+      }
+
+      .grid_two {
+        grid-row: 3;
+      }
+
+      .grid_three {
+        grid-row: 5;
+      }
+    }
+  }
+}
